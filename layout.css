@@ -1,0 +1,32 @@
+
+.Header{
+  border-style: solid; width: 1px height: 1px
+}
+h1{
+ text-align: center;
+ border-color: #777;
+ color: green;
+ padding; bottom: 5px} 
+.Navi{
+  border-style: solid; width: 1px height: 1px
+}
+.left{
+      border-style: solid; width: 1px height: 1px
+      float: right;
+}
+
+
+.center{
+  border-style: solid; width: 1px height: 1px
+}
+.right{
+  border-style: solid; width: 1px height: 1px
+  float: right;
+}
+.footer{
+  border-style: solid; width: 1px height: 1px
+}
+
+
+
+
