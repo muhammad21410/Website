@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Responsive Card</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  .card {
+    max-width: 80%;
+    margin: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  @media (min-width: 500px) {
+    .card {
+      max-width: 300px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>Card Title</h2>
+  <p>This is some content inside a very simple card. It adapts to screen sizes using a responsive design.</p>
+</div>
+
+</body>
+</html>
